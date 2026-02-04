@@ -1,7 +1,0 @@
-// vercel.json
-{
-  "functions": {
-    "app/api/**/*.ts": { "runtime": "nodejs18.x" }
-  },
-  "rewrites": [{ "source": "/handwriting-model.json", "destination": "/public/handwriting-model.json" }]
-}
